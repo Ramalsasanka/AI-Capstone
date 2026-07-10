@@ -1,9 +1,8 @@
 # AI Capstone Project
 
-## Overview
+A Node.js application built with modern JavaScript practices and AI-assisted development workflows.
 
-This project is developed as part of the AI-Assisted Development track.  
-The goal is to build a software project using modern development practices and AI-assisted tools such as Cursor.
+This repository is part of the AI-Assisted Development capstone track. It demonstrates professional software development using tools such as Cursor, Git, and GitHub.
 
 ## Tech Stack
 
@@ -34,4 +33,24 @@ Make sure you have installed:
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ramalsasanka/AI-Capstone.git
+cd AI-Capstone
+```
+
+Install dependencies (once `package.json` is added):
+
+```bash
+npm install
+```
+
+### Running the Project
+
+Start the application (once available):
+
+```bash
+npm start
+```
+
+## License
+
+See [LICENSE](LICENSE) for details.
