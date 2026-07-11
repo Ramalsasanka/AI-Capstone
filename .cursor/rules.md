@@ -50,16 +50,3 @@ Cursor AI should be used to:
 - Assist with development tasks
 
 AI-generated code should always be reviewed before use.
-## New Project Rules Learned
-
-### Rule 1: Provide Detailed Requirements Before Generating Code
-AI prompts should include expected behavior, constraints, file locations, and acceptance criteria to improve output quality.
-
-### Rule 2: Always Verify AI Generated Code
-Generated code must be tested for functionality, accessibility, and edge cases before being accepted.
-
-### Rule 3: Include Accessibility Requirements Early
-Accessibility features such as semantic HTML, labels, and ARIA attributes should be specified during development instead of added later.
-
-### Rule 4: Use AI as a Development Assistant, Not a Replacement for Review
-AI-generated solutions should always be reviewed, tested, and improved by the developer.
