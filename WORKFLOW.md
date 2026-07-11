@@ -26,7 +26,9 @@ The vague prompt did not provide enough instructions for accessibility, which re
 
 The structured workflow considered more edge cases because the prompt specifically requested validation and testing. The implementation handled cases such as empty fields, invalid email formats, password requirements, and mismatched passwords.
 
-During review, one AI issue was identified: the generated validation logic did not initially handle every possible invalid input scenario correctly. Manual testing was required to identify and improve this behavior.
+During review, one AI mistake was identified: the initial AI-generated form did not include complete accessibility handling in the first implementation. The settings section was missing the `aria-labelledby="settings-heading"` attribute, which was later added in the structured prompt version. Manual review and comparison using `git diff` helped identify this issue and improve the final implementation.
+
+This showed that AI-generated code can miss important requirements unless accessibility, validation rules, and expected behavior are clearly specified in the prompt.
 
 ## Review Effort
 
